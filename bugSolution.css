@@ -1,0 +1,17 @@
+/* bugSolution.css */
+
+.container {
+  width: calc(100% - 20px); /* Correct spacing */
+  height: calc(50% + (10px * 2)); /* Correct unit handling */
+}
+
+.another {
+  /* Example of more complex and correct calc usage */
+  margin: calc((100vw - 800px)/2);
+}
+
+/* Avoid */
+/*.container {
+  width: calc( 100% - 20px ); /* Incorrect spacing */
+  height: calc(50% + 10px * 2); /* Incorrect unit handling */
+}*/
